@@ -1,0 +1,22 @@
+{
+    "name": "shouldcodytrain",
+    "version": "1.0.0",
+    "description": "If you want to know if Cody should train, go here",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "start": "node ./index.js",
+        "debug": "nodemon --inspect ./index.js"
+    },
+    "author": "Alex Harvey <aharvey@prontoforms.com>",
+    "license": "ISC",
+    "keywords": [],
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2",
+        "prettier": "^1.19.1"
+    }
+}
